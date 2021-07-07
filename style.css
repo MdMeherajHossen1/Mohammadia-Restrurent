@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+/* navbar style starts from here */
+header{
+    display: flex;
+    background-image: linear-gradient(135deg, purple, blue);
+}
+.heading{
+    width: 50%;
+    text-align: center;
+    
+}
+.heading-nav{
+    width: 50%;
+    text-align: right;
+}
+.heading-nav a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+   padding: 30px 15px;
+}
+.heading-nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
